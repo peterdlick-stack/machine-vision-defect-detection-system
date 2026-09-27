@@ -1,0 +1,36 @@
+{
+  "cli_frames": 6,
+  "cli_counts": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "cli_inference_ms": {
+    "min": 4.214500018861145,
+    "median": 4.696562536992133,
+    "max": 15.247125003952533
+  },
+  "gui": {
+    "passed": true,
+    "processed": 6,
+    "errors": []
+  },
+  "tests": {
+    "passed": 19,
+    "failed": 0,
+    "report": "docs/test_results.xml"
+  },
+  "static_checks": {
+    "ruff": "passed",
+    "compileall": "passed"
+  },
+  "provenance": {
+    "kind": "historical-validation",
+    "platform": "macOS arm64",
+    "date": "2026-09-27",
+    "rerun_during_packaging": false
+  }
+}

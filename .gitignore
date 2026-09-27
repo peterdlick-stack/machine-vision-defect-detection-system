@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+data/output/*
+!data/output/.gitkeep
+weights/*
+!weights/.gitkeep
+.DS_Store
+
+# Local metadata and private source documents
+__MACOSX/
+._*
+*.py[cod]
+*.[dD][oO][cC]
+*.[dD][oO][cC][xXmM]
+*.[vV][sS][dDsStT]
+*.[vV][sS][dDsStT][xXmM]
+*.[vV][dD][xX]
+*.[dD][rR][aA][wW][iI][oO]
+docs/sources/
+.env
+.env.*
+!.env.example

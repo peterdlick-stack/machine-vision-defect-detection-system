@@ -1,0 +1,27 @@
+{
+  "detector": "adaptive_demo",
+  "model_path": "weights/best.pt",
+  "output_dir": "data/output",
+  "camera_index": 0,
+  "candidate_threshold": 18.0,
+  "min_area": 16,
+  "max_area_ratio": 0.2,
+  "alpha": [
+    0.3,
+    0.4,
+    0.3
+  ],
+  "k1": 10.0,
+  "k": 3.0,
+  "match_threshold": 0.75,
+  "pseudo_threshold": 0.5,
+  "spatial_gate": 0.15,
+  "wavelet": "haar",
+  "light_lux": 3000.0,
+  "temperature_c": 30.0,
+  "reflectance": 0.3,
+  "learning_rate": 0.001,
+  "learning_batch": 1000,
+  "learning_state": "data/output/learning_state.json",
+  "baseline_path": ""
+}

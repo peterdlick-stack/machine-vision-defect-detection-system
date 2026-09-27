@@ -1,0 +1,9 @@
+{
+  "synthetic": true,
+  "interference": {
+    "light_lux": 2900,
+    "temperature_c": 30,
+    "reflectance": 0.29000000000000004,
+    "source": "synthetic-demo"
+  }
+}
